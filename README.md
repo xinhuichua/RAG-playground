@@ -22,7 +22,7 @@ ollama pull mxbai-embed-larged
 - Theres still some improvement in terms of the answering , which will require some fine tuning.
 
 ### Insights
-- Chunking is really important. I was learning from online on what are the important chunking strategies. Simple strategy include like not chunking a document that has one page because it may let the chatbot lose its context.
+- Chunking is really important. I was learning from online on what are the important chunking strategies. Simple strategy include like not chunking a document that has one page because it may let the chatbot lose its context. Other strategies include paragraph chunking, contextual chunking. 
 - Pinecone has its own hosted embedding models, but I have learnt to use other popular and better embedding models.
 
 
