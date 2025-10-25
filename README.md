@@ -1,6 +1,6 @@
 # Rag Pipeline Playground
-Using RAG with LLMs to develop a simple pdpc chatbot. The objective is to understand the RAG pipeline 
-I am using hansards pdpc documents as the knowledge base
+Using RAG with LLMs to develop a simple pdpc chatbot. The objective is to understand the RAG pipeline where I used Pinecone, Ollama models and Streamlit.
+I am using hansards pdpc documents as the knowledge base.
 
 
 ### Install libraries and pulling of ollama models
@@ -8,14 +8,14 @@ I am using hansards pdpc documents as the knowledge base
 ```Python
 pip install requirements.txt
 ```
-
-### For embeddings model
+```Python
+ollama pull llama3:8b  
+```
+#### Embeddings model
 
 ```Python
 ollama pull mxbai-embed-larged
 ```
 
-```Python
-ollama pull llama3:8b  
-```
+
 
