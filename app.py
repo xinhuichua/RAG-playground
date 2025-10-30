@@ -7,13 +7,13 @@ from datetime import datetime, UTC
 from dotenv import load_dotenv
 
 # LangChain / RAG bits
-# from langchain_ollama import ChatOllama
-# from langchain_pinecone import Pinecone as LangchainPinecone
-# from langchain_ollama.embeddings import OllamaEmbeddings
-# from langchain_core.prompts import ChatPromptTemplate
-# from langchain_core.runnables import RunnablePassthrough
-# from langchain_core.output_parsers import StrOutputParser
-# from pinecone import Pinecone
+from langchain_ollama import ChatOllama
+from langchain_pinecone import Pinecone as LangchainPinecone
+from langchain_ollama.embeddings import OllamaEmbeddings
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.runnables import RunnablePassthrough
+from langchain_core.output_parsers import StrOutputParser
+from pinecone import Pinecone
 
 # Project helpers
 from supabase_config import (
